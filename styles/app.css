@@ -1,0 +1,25 @@
+
+.budda, .pilot, .baby {
+  height:446px;
+  width: 446px;
+  background-size: contain;
+  border: 1px solid #D2D2D2
+
+}
+.budda {
+  background-image: url("https://octodex.github.com/images/saritocat.png");
+  float: left;
+
+}
+
+.pilot {
+  background-image: url("https://octodex.github.com/images/topguntocat.png");
+  display: inline-block;
+  margin-left: : 1rem;
+}
+
+.baby {
+  background-image: url("https://octodex.github.com/images/carlostocat.gif");
+  float: right;
+
+}
