@@ -1,25 +1,43 @@
 
-.budda, .pilot, .baby {
-  height:446px;
-  width: 446px;
-  background-size: contain;
-  border: 1px solid #D2D2D2
-
+* {
+  box-sizing: border-box;
 }
-.budda {
-  background-image: url("https://octodex.github.com/images/saritocat.png");
+
+ *::before. *::after {
+   box-sizing: inherit;
+ }
+
+  body {
+    margin: 0;
+  }
+
+  .grid {
+padding: 1rem;
+  }
+
+.column1, .column2, .column3 {
+height: 300px;
+width: 300px;
+margin: 0 auto;
+border: 1px solid black;
+}
+
+.column1 {
   float: left;
-
 }
 
-.pilot {
-  background-image: url("https://octodex.github.com/images/topguntocat.png");
-  display: inline-block;
-  margin-left: : 1rem;
+.column2 {
+display: inline-block;
 }
 
-.baby {
-  background-image: url("https://octodex.github.com/images/carlostocat.gif");
+.column3 {
   float: right;
+}
+
+img {
+  height: 100%;
+}
+
+.number1, .number2, .number3 {
 
 }
