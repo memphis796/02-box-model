@@ -10,37 +10,48 @@ body {
 
 .grid {
   width: 100%;
-  max-width: 65rem;
-  margin: 5rem auto;
-
-  border: 1px solid #D2D2D2;
+  max-width: 75rem;
+  margin: 3rem auto;
   overflow: auto;
   padding: 1rem;
 }
 .column {
   width: calc(100% / 3 - 4rem);
   margin: 2rem;
+  border-radius: 0.3rem;
 
   float: left;
 }
-.picture {
+
+.main__picture {
   width: 100%;
+  border: 1px solid #D2D2D2;
 }
 
 .footer {
-  line-height: 4em;
+  line-height: 1em;
   border-bottom: 1px solid #D2D2D2;
   overflow: auto;
+  font-size: 0.8rem;
+  font-family: sans-serif;
+  font-weight: bold;
 }
 
 .number {
   float: left;
+  color: #D2D2D2;
+
 }
 .author {
   float: right;
+  color: #737475;
+}
+strong {
+  color: #272726;
 }
 
 .author__pic {
-  height: 2em;
+  height: 1.4em;
   vertical-align: middle;
+  border-radius: 0.2rem;
 }
