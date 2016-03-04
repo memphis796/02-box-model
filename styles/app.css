@@ -46,7 +46,7 @@ body {
   float: right;
   color: #737475;
 }
-strong {
+.name {
   color: #272726;
 }
 
